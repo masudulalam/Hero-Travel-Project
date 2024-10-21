@@ -224,11 +224,33 @@ li {
 /* Footer Styles */
 .footer {
     background: rgba(19, 19, 24, 0.05);
+    margin-top: 6.25rem;
+    padding: 7rem 0;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-logo{
+    justify-content: center;
 }
 
-h4 {
+.footer .logo-container h4 {
     color: rgb(19, 19, 24);
     font-size: 2rem;
     font-weight: 800;
     line-height: 2.5rem;
+}
+.footer-paragraph{
+    width: 48rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.social-media-container{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
 }
