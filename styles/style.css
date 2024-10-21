@@ -58,6 +58,9 @@ section {
 .gray-2 {
     color: rgba(19, 19, 24, 0.5);
 }
+.gray-3 {
+    color: rgb(90, 90, 93);
+}
 
 h3 {
     color: rgb(19, 19, 24);
@@ -185,12 +188,14 @@ li {
     gap: 1.5rem;
     margin-top: 3rem;
 }
+
 .row2 {
     display: grid;
     grid-template-columns: 33.33fr 42.24fr 24.42fr;
     gap: 1.5rem;
     margin-top: 3rem;
 }
+
 .row3 {
     display: grid;
     grid-template-columns: 41.27fr 58.72fr;
@@ -214,4 +219,16 @@ li {
     font-size: 1.75rem;
     font-weight: 800;
     line-height: 2.18rem;
+}
+
+/* Footer Styles */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+h4 {
+    color: rgb(19, 19, 24);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.5rem;
 }
