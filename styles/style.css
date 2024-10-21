@@ -23,7 +23,9 @@ body {
 .display-flex {
     display: flex;
 }
-
+section{
+    margin-top: 6.25rem;
+}
 .primary-color {
     color: rgb(255, 84, 0);
 }
@@ -46,10 +48,21 @@ body {
     font-weight: 400;
     line-height: 1.62rem;
 }
-
+.gray-1{
+    color: rgba(19, 19, 24, 0.7);
+}
 .gray-2 {
     color: rgba(19, 19, 24, 0.5);
 }
+
+h3 {
+    color: rgb(19, 19, 24);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.12rem;
+}
+
+/* End Common Styles */
 
 /* header style */
 .header {
@@ -118,6 +131,8 @@ body {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
     padding: 1rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 input,
@@ -128,4 +143,15 @@ select {
     border-radius: 8px;
     background: rgb(255, 255, 255);
     margin-right: 1.5rem;
+}
+
+/* Popular tour section styles */
+.popular-tour-section{
+    gap: 3.31rem;
+}
+.popular-tour-section-text-part p,li{
+    margin-top: 1.5rem;
+}
+.popular-tour-section-text-part button{
+    margin-top: 2rem;
 }
