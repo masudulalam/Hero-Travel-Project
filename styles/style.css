@@ -10,28 +10,56 @@
 body {
     font-family: "Mulish", sans-serif;
     max-width: 90rem;
+    margin: 0 auto;
+    /* border: 1px solid gray; */
 }
 
-.main {
+.container {
     max-width: 73.125rem;
+    margin: 0 auto;
+    /* border: 1px solid gray; */
 }
 
 .display-flex {
     display: flex;
 }
 
-.primary-color{
+.primary-color {
     color: rgb(255, 84, 0);
 }
 
+.primary-bg {
+    background-color: rgb(255, 84, 0);
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    padding: .87rem 2.12rem;
+}
+
+
+.normal-text {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.62rem;
+}
+
+.gray-2 {
+    color: rgba(19, 19, 24, 0.5);
+}
 
 /* header style */
-.header{
+.header {
     margin-top: 4rem;
 }
+
 /* nav style */
 .nav {
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-title {
@@ -43,7 +71,7 @@ body {
 
 .nav-link ul li {
     list-style-type: none;
-    margin-right: 2.75rem;
+    margin-left: 2.75rem;
 }
 
 .nav-link ul li a {
@@ -53,6 +81,51 @@ body {
     font-weight: 700;
     line-height: 23px;
 }
-.nav-link ul li a:hover{
+
+.nav-link ul li a:hover {
     color: rgb(255, 84, 0);
+}
+
+/* banner style */
+.banner {
+    background-image: url('../Images/banner.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 3rem;
+    padding: 6.62rem 0;
+    text-align: center;
+}
+
+.banner-container {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5rem;
+}
+
+.banner-text-part p {
+    width: 42.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.banner-form-part {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+}
+
+input,
+select {
+    width: 10.87rem;
+    height: 3.25rem;
+    padding-left: 1rem;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 1.5rem;
 }
