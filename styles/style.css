@@ -23,9 +23,11 @@ body {
 .display-flex {
     display: flex;
 }
-section{
+
+section {
     margin-top: 6.25rem;
 }
+
 .primary-color {
     color: rgb(255, 84, 0);
 }
@@ -48,9 +50,11 @@ section{
     font-weight: 400;
     line-height: 1.62rem;
 }
-.gray-1{
+
+.gray-1 {
     color: rgba(19, 19, 24, 0.7);
 }
+
 .gray-2 {
     color: rgba(19, 19, 24, 0.5);
 }
@@ -60,6 +64,10 @@ h3 {
     font-size: 2.5rem;
     font-weight: 800;
     line-height: 3.12rem;
+}
+
+.txt-center {
+    text-align: center;
 }
 
 /* End Common Styles */
@@ -146,12 +154,64 @@ select {
 }
 
 /* Popular tour section styles */
-.popular-tour-section{
+.popular-tour-section {
     gap: 3.31rem;
 }
-.popular-tour-section-text-part p,li{
+
+.popular-tour-section-text-part p,
+li {
     margin-top: 1.5rem;
 }
-.popular-tour-section-text-part button{
+
+.popular-tour-section-text-part button {
     margin-top: 2rem;
+}
+
+/* Your Destination Styles */
+.your-destination-section {}
+
+.your-destination-section p {
+    max-width: 40rem;
+}
+
+.your-destination-section img {
+    width: 100%;
+    height: 18.75rem;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.row2 {
+    display: grid;
+    grid-template-columns: 33.33fr 42.24fr 24.42fr;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.row3 {
+    display: grid;
+    grid-template-columns: 41.27fr 58.72fr;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.country-card {
+    position: relative;
+}
+
+.country-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.destination-txt {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 2.18rem;
 }
